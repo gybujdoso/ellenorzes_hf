@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Regisztráció</title>
+    <script src="./ellenorzes.js"></script>
+</head>
+<body>
+    <form id="urlap" method="get">
+        <table align="center" border="1">
+            <tr>
+                <th align="right">Teljes név:</th> 
+                <td><input id="tnev" name="tnev" type="text" /></td>
+            </tr>
+            <tr>
+                <th align="right">Felhasználói azonosító:</th>
+                <td><input id="unev" name="unev" type="text" /></td>
+            </tr>
+            <tr>
+                <th align="right">Jelszó 1:</th>
+                <td><input id="pwd1" name="pwd1" type="password" /></td>
+            </tr>
+            <tr>
+                <th align="right">Jelszó 2:</th>
+                <td><input id="pwd2" type="password" /></td>
+            </tr>
+            <tr>
+               <th align="right">E-mail cím:</th>
+               <td><input id="email" name="email" type="email" /></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="right">
+                    <input type="submit" onclick="Ellenorzes();" value="Küldés" /> <!-- ezt megtanulni! -->
+                </td>
+            </tr>
+        </table>
+    </form>
+
+
+</body>
+</html>
+
